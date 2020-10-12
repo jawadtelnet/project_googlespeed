@@ -1,6 +1,7 @@
 <?php
 
 
+header("Refresh: 30;");
   
 
   function checkPageSpeed($url){    
@@ -64,7 +65,7 @@ $data1=json_encode($mark_array);
 $data2=json_encode($measure_array);
 $data3=json_encode($javascript_array);
 
-print_r($data3);
+
 
 ?>
 
